@@ -1,0 +1,79 @@
+header {
+    height: 810px;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    top:0;left: 0;
+    z-index: -1;
+    width: 100%;
+    height:  100%;
+    background: url(../img/4.jpg) no-repeat;
+    background-size: 100%;
+    -webkit-filter: blur(5px);
+
+
+}
+header .nav{
+    height: 119px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+header .logo {
+    width: 145px;
+    height: 40px;
+    background: url(http://sweet.xintheme.cn/wp-content/uploads/2020/04/1586772554-sweet-logo.png);
+    background-size: 100%;
+
+}
+
+
+header .container ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px ;
+
+}
+header .container ul li a{
+    padding-bottom: 10px;
+    color: white;
+}
+header .container ul li a:hover{
+    border-bottom: 1px solid skyblue;
+}
+
+
+
+
+header .nav-bottom{
+    
+    background-color: white;
+
+}
+header .nav-bottom-img{
+    position: relative;
+    padding: 50px 100px;
+    width: 740px;
+    height: 310px;
+    background: url(http://sweet.xintheme.cn/wp-content/uploads/2020/04/1586164050-thumb-5.jpg);
+    background-size: 100%;
+}
+header .nav-bottom-img-text{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: white;
+
+
+}
+header .nav-bottom-text{
+    padding: 35px 60px;
+    color: slategray;
+
+}
+header .nav-bottom-text p:first-child{
+  margin-bottom: 20px;
+}

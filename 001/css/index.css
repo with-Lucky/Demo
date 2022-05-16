@@ -1,0 +1,109 @@
+.main{
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.main-top {
+    column-span: all;
+    position: relative;
+    background: url(http://sweet.xintheme.cn/wp-content/uploads/2020/04/1586232236-thumb-49.jpg) no-repeat;
+    background-size:100% ;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+.main-top p{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+    color: whitesmoke;
+}
+
+.main .main-bottom div{
+    position: relative;
+    height: 233px;
+    margin-bottom: 20px;
+}
+.main .main-bottom img{
+    width: 100%;
+   height: 100%;
+
+}
+.main-top .p1{
+    position: absolute;
+    left:40px;
+    bottom:40px;
+    color: whitesmoke;
+}
+.main .main-bottom .p1{
+    position: absolute;
+    left:40px;
+    bottom:40px;
+    color: whitesmoke;
+
+}
+
+.main .main-bottom p{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    color: aliceblue;
+}
+
+.tab .container ul{
+
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 34px;
+    padding: 50px 60px 60px 60px;
+    margin: 0 auto;
+    
+    
+    
+
+}
+
+.tab .container ul li a{
+    display: block;
+    width: 34px;
+    height: 34px;
+    color: white;
+    text-align: center;
+   line-height: 34px;
+   background-color: blueviolet;
+   margin: 0 10px;
+   
+
+}
+.tab .container ul li:hover a{
+    background-color: skyblue;
+
+}
+footer{
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+footer .container p{
+    padding-top: 50px;
+    color: white;
+  
+
+}
+footer .container div{
+    padding-top:30px;
+}
+footer .container div i{
+    color: white;
+}
+footer .container div a:hover{
+    color: white;
+
+}
+.main-bottom img:hover{
+    -webkit-filter: grayscale(1);
+}
+.main-top:hover{
+    -webkit-filter: grayscale(1);
+}
